@@ -1,0 +1,150 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+}
+.header{
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  padding: 5px 0px 50px 100px;
+  align-items: center;
+}
+.headertext{
+    margin-right: auto;
+    font-size: 24px;
+}
+.header-links{
+  display: flex;
+  margin-left: auto;
+  padding: 10px 100px 0px 0px;  
+}
+a{
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Roboto', arial;
+}
+.helloPart{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 100px 40px 100px;
+}
+.helloText{
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right:auto;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin: 0;
+  font-family: 'Roboto', arial;
+}
+img{
+  width: 600px;
+  height: 200px;
+    }
+    button{
+        background-color: #3882F6;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        color: #F9FAF8;
+        width: 70px;
+        display: block;
+    }      
+      
+      .team{
+        display: flex;
+        justify-content: left;
+        margin-left: 130px;
+        gap:80px;
+      }
+      .team img{
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+        border: 4px solid #3882F6;
+        border-radius: 15px;
+        margin: 5px 20px 0px 20px;
+      }
+      .info {
+        max-width: 200px;
+      }
+      
+      .quote{
+        display: flex;
+        background-color:#E5E7EB;
+        padding: 30PX;
+        margin-top: 30px;
+        justify-content: left;
+        font-style:italic;
+        font-size: 36px;
+        padding: 0 100px;
+}
+      cite{
+        font-size: 30px;
+        font-weight: bold;
+        float: right;
+      }
+      .sign-up {
+        background-color: #3882F6 ;
+        margin: 50px 200px;
+        padding: 10px 80px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        border-color: none;
+    }
+    
+    .sign-item {
+        flex: 1;
+    }
+    
+    .signs-text {
+        text-align: left;
+    }
+    
+    .signs-text p {
+        color: #fff;
+        opacity: 0.7;
+        margin: 5px 30px 30px 50px;
+    }
+    
+    h3 {
+        color: #fff;
+        font-family: 'Roboto', arial;
+        padding: 0;
+        margin: 30px 0px 0px 50px;
+    }
+    
+    .signs-button button {
+        color: #fff;
+        font-family: 'Roboto', arial;
+        border: solid;
+        border-radius: 8px;
+        background-color: #3882F6;
+        padding: 5px 25px;
+        font-size: 15px;
+        width: 110px;
+    }
+      .footer{
+        background-color:#1f2937;
+        height: 50px;
+        text-align: center;
+        color:#F9FAF8;;
+      }
